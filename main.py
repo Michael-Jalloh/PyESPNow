@@ -1,4 +1,4 @@
-from espnow_modem import EspnowModem
+from pyespnow import EspnowModem
 from time import sleep
 import json
 

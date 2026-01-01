@@ -1,0 +1,35 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "espnow-modem"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "seriallink" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "seriallink" }]
+
+[[package]]
+name = "pyserial"
+version = "3.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz", hash = "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb", size = 159125, upload-time = "2020-11-23T03:59:15.045Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/07/bc/587a445451b253b285629263eb51c2d8e9bcea4fc97826266d186f96f558/pyserial-3.5-py2.py3-none-any.whl", hash = "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0", size = 90585, upload-time = "2020-11-23T03:59:13.41Z" },
+]
+
+[[package]]
+name = "seriallink"
+version = "1.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyserial" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6b/c2/c35d145da3cbdf713725916cce65f008d68a10b2a905b8050d57f82de219/seriallink-1.1.0.tar.gz", hash = "sha256:6a953d200697eb5ab27b660cad1fee94ffbce2cae39f1c09232358c50ec6f981", size = 5239, upload-time = "2025-03-25T22:09:06.603Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cc/22/cdb00ee8fac408ac29991bde26b4907cafccad1e8153262d95138a39f430/seriallink-1.1.0-py3-none-any.whl", hash = "sha256:678d25fdee6f2c241285aa282928ac7576ce08fc0e7ddc95c4850efb36365d09", size = 5035, upload-time = "2025-03-25T22:09:02.432Z" },
+]
